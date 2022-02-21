@@ -408,7 +408,6 @@ class phaseGUI:
                                                 (data['port']-1) for i in range(int(_nsamp))]
                                 data['amplitude'] = [float(a) for a in amp]
                                 self.calc(data)
-                                print('does it print this line')
 
                     else:
                         with open(data['filename']) as csvfile:
